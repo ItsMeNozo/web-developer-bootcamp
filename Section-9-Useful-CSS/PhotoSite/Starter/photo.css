@@ -1,0 +1,19 @@
+img {
+    width: 30%; 
+    margin: calc(10%/6); 
+}
+
+img:nth-of-type(-n+3) {
+    margin-top: 3.5%;
+}
+
+nav#author{
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6); 
+    padding: 0.6em 0; /* 0 for left and right */ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}

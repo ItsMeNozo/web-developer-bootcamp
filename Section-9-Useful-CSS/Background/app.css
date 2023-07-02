@@ -1,0 +1,19 @@
+section {
+    width: 80%;
+    height: 800px;
+    /* background-image: url("https://images.unsplash.com/photo-1564442038901-4f9a19d3d456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1227&q=80"); */
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top; */
+    background: center/20% no-repeat url("https://images.unsplash.com/photo-1564442038901-4f9a19d3d456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1227&q=80"), 35% url("https://cdn.discordapp.com/attachments/993219350179876874/1123933728163500132/image.png");
+    /* margin: 0 auto; */
+}
+
+h1 {
+    font-size: 150px;
+    text-align:center;
+    text-shadow: black -6px 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color:white;
+}

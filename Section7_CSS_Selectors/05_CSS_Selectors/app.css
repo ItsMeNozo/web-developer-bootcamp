@@ -92,5 +92,9 @@ button:hover {
 }
 
 button {
-    background-color: magenta !important;
+    background-color: magenta;
+}
+
+button,input {
+    color: inherit
 }

@@ -2,6 +2,7 @@ const person = {
     firstName: 'Viggo',
     lastName: 'Mortensen',
     fullName: function () {
+        console.log(this); 
         return `${this.firstName} ${this.lastName}`
     },
     shoutName: function () {
@@ -12,3 +13,11 @@ const person = {
         }, 3000)
     }
 }
+
+
+const {firstName: fn, lastName: ln, noExist = 'None'} = person; 
+
+// function raceResults(gold, sil, ...rest)
+// {
+//     console.log(`Gold: ${gold}\n sil: ${sil}\n rest: ${rest}`);
+// }

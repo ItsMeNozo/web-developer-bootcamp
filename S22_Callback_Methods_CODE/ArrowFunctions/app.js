@@ -55,5 +55,6 @@ const newMovies = movies.map(movie => (
 
 
 
-
-
+const greet = name => {
+    return `Hey ${name}!`; 
+} 

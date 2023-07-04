@@ -33,3 +33,6 @@ movies.forEach(function (movie) {
     console.log(`${movie.title} - ${movie.score}/100`)
 })
 
+let firstNames = fullNames.map(function(hpChar){
+    return hpChar.first; 
+});
